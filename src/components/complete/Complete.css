@@ -1,0 +1,29 @@
+.complete {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title,
+.message {
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  color: hsl(278, 68%, 11%);
+  margin: 1.3rem 0rem;
+}
+
+.message {
+  margin-bottom: 1.3rem;
+  color: hsl(279, 6%, 55%);
+}
+
+@media screen and (max-width: 1080px) {
+  .complete {
+    width: 100%;
+  }
+}

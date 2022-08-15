@@ -1,0 +1,42 @@
+.form-input {
+  display: flex;
+  margin-bottom: 1.5rem;
+  flex-direction: column;
+}
+
+.input {
+  outline: none;
+  padding: 1rem 1.8rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: hsl(270, 3%, 87%);
+  border-radius: 0.5rem;
+  color: hsl(278, 68%, 11%);
+  font-size: 1.1rem;
+  font-family: "Space Grotesk";
+}
+
+.input-block {
+  display: block;
+  width: 100%;
+}
+
+.input:focus {
+  border: transparent;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(
+      to right,
+      hsl(0, 0%, 100%),
+      hsl(0, 0%, 100%)
+    ),
+    linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-clip: padding-box, border-box;
+}
+
+.input-invalid {
+  border-color: hsl(0, 100%, 66%);
+}

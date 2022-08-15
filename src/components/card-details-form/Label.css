@@ -1,0 +1,5 @@
+.form-label {
+  color: hsl(278, 68%, 11%);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,27 @@
+.card-form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .card-form {
+    width: 100%;
+  }
+}
